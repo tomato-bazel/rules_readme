@@ -2,6 +2,14 @@
 
 All notable changes to `rules_readme`.
 
+## 0.0.4
+
+### Fixed
+
+- Reject rendered and materialized README paths that differ only by case, with
+  an actionable error before macOS or Windows sandbox input staging fails.
+
+
 ## 0.0.3
 
 Additive — no migration needed.
